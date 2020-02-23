@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.13)
+
+set(CMAKE_C_COMPILER /usr/local/bin/gcc-9)
+set(CMAKE_CXX_COMPILER /usr/local/bin/g++-9)
+
+project(SwitchingTimes)
+
+set(CMAKE_CXX_STANDARD 17)
+
+set(IPOPT_LIBRARY_DIRS /usr/local/lib)
+set(IPOPT_INCLUDE_DIRS /usr/local/include/coin-or)
+
+include_directories("/usr/local/include")
+
+include_directories(${IPOPT_INCLUDE_DIRS} ${CMAKE_SOURCE_DIR}/include)
+link_directories(${IPOPT_LIBRARY_DIRS})
+
+find_package(OpenMP REQUIRED)
+
+add_executable(SwitchingTimes main.cpp src/switching-times.hpp src/switching-times.cpp src/cppad-eigen.hpp src/cppad-eigen-odeint.hpp src/switching-times-example.cpp)
+#add_executable(SwitchingTimes main.cpp)
+
+target_link_libraries(SwitchingTimes PRIVATE OpenMP::OpenMP_CXX)
+target_link_libraries(SwitchingTimes PRIVATE ipopt)

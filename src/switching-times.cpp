@@ -2,6 +2,7 @@
 // Created by Niclas Laursen Brok on 2020-02-14.
 //
 
+#include <pybind11/pybind11.h>
 #include "switching-times.hpp"
 
 namespace SwitchingTimes {

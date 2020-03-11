@@ -2,16 +2,16 @@
 // Created by Niclas Laursen Brok on 2020-02-14.
 //
 
+#ifndef SWITCHINGTIMES_SWITCHING_TIMES_HPP
+#define SWITCHINGTIMES_SWITCHING_TIMES_HPP
+
+#include <pybind11/eigen.h>
 #include <Eigen/Dense>
 #include "cppad-eigen.hpp"
 #include <boost/numeric/odeint.hpp>
 #include <boost/numeric/odeint/external/eigen/eigen.hpp>
 #include <coin-or/IpIpoptApplication.hpp>
 #include <coin-or/IpTNLP.hpp>
-
-
-#ifndef SWITCHINGTIMES_SWITCHING_TIMES_HPP
-#define SWITCHINGTIMES_SWITCHING_TIMES_HPP
 
 using namespace boost::numeric::odeint;
 using namespace Ipopt;

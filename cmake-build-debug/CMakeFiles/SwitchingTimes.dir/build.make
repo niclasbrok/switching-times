@@ -57,57 +57,57 @@ include CMakeFiles/SwitchingTimes.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SwitchingTimes.dir/flags.make
 
-CMakeFiles/SwitchingTimes.dir/main.cpp.o: CMakeFiles/SwitchingTimes.dir/flags.make
-CMakeFiles/SwitchingTimes.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SwitchingTimes.dir/main.cpp.o"
-	/usr/local/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwitchingTimes.dir/main.cpp.o -c /Users/nlbr/CLionProjects/SwitchingTimes/main.cpp
+CMakeFiles/SwitchingTimes.dir/main.o: CMakeFiles/SwitchingTimes.dir/flags.make
+CMakeFiles/SwitchingTimes.dir/main.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SwitchingTimes.dir/main.o"
+	/usr/local/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwitchingTimes.dir/main.o -c /Users/nlbr/CLionProjects/SwitchingTimes/main.cpp
 
-CMakeFiles/SwitchingTimes.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwitchingTimes.dir/main.cpp.i"
-	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nlbr/CLionProjects/SwitchingTimes/main.cpp > CMakeFiles/SwitchingTimes.dir/main.cpp.i
+CMakeFiles/SwitchingTimes.dir/main.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwitchingTimes.dir/main.i"
+	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nlbr/CLionProjects/SwitchingTimes/main.cpp > CMakeFiles/SwitchingTimes.dir/main.i
 
-CMakeFiles/SwitchingTimes.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwitchingTimes.dir/main.cpp.s"
-	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nlbr/CLionProjects/SwitchingTimes/main.cpp -o CMakeFiles/SwitchingTimes.dir/main.cpp.s
+CMakeFiles/SwitchingTimes.dir/main.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwitchingTimes.dir/main.s"
+	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nlbr/CLionProjects/SwitchingTimes/main.cpp -o CMakeFiles/SwitchingTimes.dir/main.s
 
-CMakeFiles/SwitchingTimes.dir/src/switching-times.cpp.o: CMakeFiles/SwitchingTimes.dir/flags.make
-CMakeFiles/SwitchingTimes.dir/src/switching-times.cpp.o: ../src/switching-times.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SwitchingTimes.dir/src/switching-times.cpp.o"
-	/usr/local/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwitchingTimes.dir/src/switching-times.cpp.o -c /Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times.cpp
+CMakeFiles/SwitchingTimes.dir/src/switching-times.o: CMakeFiles/SwitchingTimes.dir/flags.make
+CMakeFiles/SwitchingTimes.dir/src/switching-times.o: ../src/switching-times.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SwitchingTimes.dir/src/switching-times.o"
+	/usr/local/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwitchingTimes.dir/src/switching-times.o -c /Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times.cpp
 
-CMakeFiles/SwitchingTimes.dir/src/switching-times.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwitchingTimes.dir/src/switching-times.cpp.i"
-	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times.cpp > CMakeFiles/SwitchingTimes.dir/src/switching-times.cpp.i
+CMakeFiles/SwitchingTimes.dir/src/switching-times.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwitchingTimes.dir/src/switching-times.i"
+	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times.cpp > CMakeFiles/SwitchingTimes.dir/src/switching-times.i
 
-CMakeFiles/SwitchingTimes.dir/src/switching-times.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwitchingTimes.dir/src/switching-times.cpp.s"
-	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times.cpp -o CMakeFiles/SwitchingTimes.dir/src/switching-times.cpp.s
+CMakeFiles/SwitchingTimes.dir/src/switching-times.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwitchingTimes.dir/src/switching-times.s"
+	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times.cpp -o CMakeFiles/SwitchingTimes.dir/src/switching-times.s
 
-CMakeFiles/SwitchingTimes.dir/src/switching-times-example.cpp.o: CMakeFiles/SwitchingTimes.dir/flags.make
-CMakeFiles/SwitchingTimes.dir/src/switching-times-example.cpp.o: ../src/switching-times-example.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SwitchingTimes.dir/src/switching-times-example.cpp.o"
-	/usr/local/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwitchingTimes.dir/src/switching-times-example.cpp.o -c /Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times-example.cpp
+CMakeFiles/SwitchingTimes.dir/src/switching-times-example.o: CMakeFiles/SwitchingTimes.dir/flags.make
+CMakeFiles/SwitchingTimes.dir/src/switching-times-example.o: ../src/switching-times-example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SwitchingTimes.dir/src/switching-times-example.o"
+	/usr/local/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwitchingTimes.dir/src/switching-times-example.o -c /Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times-example.cpp
 
-CMakeFiles/SwitchingTimes.dir/src/switching-times-example.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwitchingTimes.dir/src/switching-times-example.cpp.i"
-	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times-example.cpp > CMakeFiles/SwitchingTimes.dir/src/switching-times-example.cpp.i
+CMakeFiles/SwitchingTimes.dir/src/switching-times-example.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwitchingTimes.dir/src/switching-times-example.i"
+	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times-example.cpp > CMakeFiles/SwitchingTimes.dir/src/switching-times-example.i
 
-CMakeFiles/SwitchingTimes.dir/src/switching-times-example.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwitchingTimes.dir/src/switching-times-example.cpp.s"
-	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times-example.cpp -o CMakeFiles/SwitchingTimes.dir/src/switching-times-example.cpp.s
+CMakeFiles/SwitchingTimes.dir/src/switching-times-example.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwitchingTimes.dir/src/switching-times-example.s"
+	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times-example.cpp -o CMakeFiles/SwitchingTimes.dir/src/switching-times-example.s
 
 # Object files for target SwitchingTimes
 SwitchingTimes_OBJECTS = \
-"CMakeFiles/SwitchingTimes.dir/main.cpp.o" \
-"CMakeFiles/SwitchingTimes.dir/src/switching-times.cpp.o" \
-"CMakeFiles/SwitchingTimes.dir/src/switching-times-example.cpp.o"
+"CMakeFiles/SwitchingTimes.dir/main.o" \
+"CMakeFiles/SwitchingTimes.dir/src/switching-times.o" \
+"CMakeFiles/SwitchingTimes.dir/src/switching-times-example.o"
 
 # External object files for target SwitchingTimes
 SwitchingTimes_EXTERNAL_OBJECTS =
 
-SwitchingTimes: CMakeFiles/SwitchingTimes.dir/main.cpp.o
-SwitchingTimes: CMakeFiles/SwitchingTimes.dir/src/switching-times.cpp.o
-SwitchingTimes: CMakeFiles/SwitchingTimes.dir/src/switching-times-example.cpp.o
+SwitchingTimes: CMakeFiles/SwitchingTimes.dir/main.o
+SwitchingTimes: CMakeFiles/SwitchingTimes.dir/src/switching-times.o
+SwitchingTimes: CMakeFiles/SwitchingTimes.dir/src/switching-times-example.o
 SwitchingTimes: CMakeFiles/SwitchingTimes.dir/build.make
 SwitchingTimes: /usr/local/Cellar/gcc/9.2.0_3/lib/gcc/9/libgomp.dylib
 SwitchingTimes: CMakeFiles/SwitchingTimes.dir/link.txt

@@ -39,7 +39,7 @@
 			</Target>
 			<Target title="SwitchingTimes">
 				<Option output="/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/SwitchingTimes" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -64,7 +64,7 @@
 			</Target>
 			<Target title="SwitchingTimes/fast">
 				<Option output="/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/SwitchingTimes" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>

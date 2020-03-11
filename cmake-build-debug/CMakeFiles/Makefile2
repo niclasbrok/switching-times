@@ -65,41 +65,59 @@ CMAKE_SOURCE_DIR = /Users/nlbr/CLionProjects/SwitchingTimes
 CMAKE_BINARY_DIR = /Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/SwitchingTimes.dir
+# Target rules for target CMakeFiles/switching_times.dir
 
 # All Build rule for target.
-CMakeFiles/SwitchingTimes.dir/all:
-	$(MAKE) -f CMakeFiles/SwitchingTimes.dir/build.make CMakeFiles/SwitchingTimes.dir/depend
-	$(MAKE) -f CMakeFiles/SwitchingTimes.dir/build.make CMakeFiles/SwitchingTimes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target SwitchingTimes"
-.PHONY : CMakeFiles/SwitchingTimes.dir/all
+CMakeFiles/switching_times.dir/all:
+	$(MAKE) -f CMakeFiles/switching_times.dir/build.make CMakeFiles/switching_times.dir/depend
+	$(MAKE) -f CMakeFiles/switching_times.dir/build.make CMakeFiles/switching_times.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target switching_times"
+.PHONY : CMakeFiles/switching_times.dir/all
 
 # Include target in all.
-all: CMakeFiles/SwitchingTimes.dir/all
+all: CMakeFiles/switching_times.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/SwitchingTimes.dir/rule: cmake_check_build_system
+CMakeFiles/switching_times.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SwitchingTimes.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/switching_times.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/SwitchingTimes.dir/rule
+.PHONY : CMakeFiles/switching_times.dir/rule
 
 # Convenience name for target.
-SwitchingTimes: CMakeFiles/SwitchingTimes.dir/rule
+switching_times: CMakeFiles/switching_times.dir/rule
 
-.PHONY : SwitchingTimes
-
-# clean rule for target.
-CMakeFiles/SwitchingTimes.dir/clean:
-	$(MAKE) -f CMakeFiles/SwitchingTimes.dir/build.make CMakeFiles/SwitchingTimes.dir/clean
-.PHONY : CMakeFiles/SwitchingTimes.dir/clean
+.PHONY : switching_times
 
 # clean rule for target.
-clean: CMakeFiles/SwitchingTimes.dir/clean
+CMakeFiles/switching_times.dir/clean:
+	$(MAKE) -f CMakeFiles/switching_times.dir/build.make CMakeFiles/switching_times.dir/clean
+.PHONY : CMakeFiles/switching_times.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/switching_times.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory pybind11
+
+# Convenience name for "all" pass in the directory.
+pybind11/all:
+
+.PHONY : pybind11/all
+
+# Convenience name for "clean" pass in the directory.
+pybind11/clean:
+
+.PHONY : pybind11/clean
+
+# Convenience name for "preinstall" pass in the directory.
+pybind11/preinstall:
+
+.PHONY : pybind11/preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -5,7 +5,7 @@
 #ifndef SWITCHINGTIMES_CPPAD_EIGEN_HPP
 #define SWITCHINGTIMES_CPPAD_EIGEN_HPP
 
-//#include <pybind11/eigen.h>
+#include <pybind11/eigen.h>
 #include <cppad/cppad.hpp>
 #include <Eigen/Core>
 

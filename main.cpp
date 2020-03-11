@@ -1,9 +1,49 @@
 #include <iostream>
-#include <chrono>
 #include "src/switching-times.hpp"
+#include <pybind11/pybind11.h>
 
+namespace py = pybind11;
+
+/*
+ * Go to terminal -> go to the folder of the project -> hit the following:
+ *      python setup.py install
+ * ... the code is then available as a python package called 'switching_times'
+ * ... look at ./py/cxx-2-py-example.ipynb for an example of using the package
+ */
+
+PYBIND11_MODULE(switching_times, m) {
+    py::class_<SwitchingTimes::NLP>(m, "plant")
+        .def(py::init<>())
+        .def("set_p_const", &SwitchingTimes::NLP::set_p_const)
+        .def("get_p_const", &SwitchingTimes::NLP::get_p_const)
+        .def("set_p_dynamic", &SwitchingTimes::NLP::set_p_dynamic)
+        .def("get_p_dynamic", &SwitchingTimes::NLP::get_p_dynamic)
+        .def("set_p_optimize", &SwitchingTimes::NLP::set_p_optimize)
+        .def("get_p_optimize", &SwitchingTimes::NLP::get_p_optimize)
+        .def("get_p_optimize_ipopt", &SwitchingTimes::NLP::get_p_optimize_ipopt)
+        .def("set_t0", &SwitchingTimes::NLP::set_t0)
+        .def("get_t0", &SwitchingTimes::NLP::get_t0)
+        .def("set_tf", &SwitchingTimes::NLP::set_tf)
+        .def("get_tf", &SwitchingTimes::NLP::get_tf)
+        .def("set_dt", &SwitchingTimes::NLP::set_dt)
+        .def("get_dt", &SwitchingTimes::NLP::get_dt)
+        .def("set_lower_bound", &SwitchingTimes::NLP::set_lower_bound)
+        .def("get_lower_bound", &SwitchingTimes::NLP::get_lower_bound)
+        .def("set_upper_bound", &SwitchingTimes::NLP::set_upper_bound)
+        .def("get_upper_bound", &SwitchingTimes::NLP::get_upper_bound)
+        .def("set_on_bound", &SwitchingTimes::NLP::set_on_bound)
+        .def("get_on_bound", &SwitchingTimes::NLP::get_on_bound)
+        .def("set_off_bound", &SwitchingTimes::NLP::set_off_bound)
+        .def("get_off_bound", &SwitchingTimes::NLP::get_off_bound)
+        .def("set_x0", &SwitchingTimes::NLP::set_x0)
+        .def("get_x0", &SwitchingTimes::NLP::get_x0)
+        .def("get_init_status", &SwitchingTimes::NLP::get_init_status)
+        .def("get_solve_status", &SwitchingTimes::NLP::get_solve_status)
+        .def("solve", &SwitchingTimes::NLP::solve);
+};
+
+/*
 using namespace Ipopt;
-
 int main() {
 
     SwitchingTimes::NLP nlp;
@@ -68,25 +108,8 @@ int main() {
     for(int k = 0; k < n_s; ++k) {
         std::cout << off_ipopt(k) << " is optimal - started at " << off(k) << std::endl;
     }
-
-    /*SwitchingTimes::vector<double> xf(x0);
-    // Test integrate function
-    auto start = std::chrono::high_resolution_clock::now();
-    xf = plant.integrate(t0, tf, dt, xf);
-    auto stop = std::chrono::high_resolution_clock::now();
-    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
-    std::cout << "Execution time: " << duration.count() / 1000000. << " sec" << std::endl;
-    std::cout << xf(0) << " , " << xf(1) << " , " << xf(2) << " , " << xf(3) << std::endl;
-    // Test jacobian function
-    start = std::chrono::high_resolution_clock::now();
-    SwitchingTimes::vector<double> jac1 = plant.jacobian(p_opt);
-    stop = std::chrono::high_resolution_clock::now();
-    duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
-    std::cout << "Execution time: " << duration.count() / 1000000. << " sec" << std::endl;
-    start = std::chrono::high_resolution_clock::now();
-    SwitchingTimes::vector<double> jac2 = plant.jacobian(p_opt);
-    stop = std::chrono::high_resolution_clock::now();
-    duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
-    std::cout << "Execution time: " << duration.count() / 1000000. << " sec" << std::endl;*/
     return 0;
-}
+}*/
+
+
+

@@ -20,14 +20,6 @@ cppad/cppad.hpp
 Eigen/Core
 -
 
-/Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times-example.cpp
-switching-times.hpp
-/Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times.hpp
-
-/Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times.cpp
-switching-times.hpp
-/Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times.hpp
-
 /Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times.hpp
 Eigen/Dense
 -

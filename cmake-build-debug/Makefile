@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SwitchingTimes
+# Target rules for targets named switching_times
 
 # Build rule for target.
-SwitchingTimes: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SwitchingTimes
-.PHONY : SwitchingTimes
+switching_times: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 switching_times
+.PHONY : switching_times
 
 # fast build rule for target.
-SwitchingTimes/fast:
-	$(MAKE) -f CMakeFiles/SwitchingTimes.dir/build.make CMakeFiles/SwitchingTimes.dir/build
-.PHONY : SwitchingTimes/fast
+switching_times/fast:
+	$(MAKE) -f CMakeFiles/switching_times.dir/build.make CMakeFiles/switching_times.dir/build
+.PHONY : switching_times/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/SwitchingTimes.dir/build.make CMakeFiles/SwitchingTimes.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/switching_times.dir/build.make CMakeFiles/switching_times.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/SwitchingTimes.dir/build.make CMakeFiles/SwitchingTimes.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/switching_times.dir/build.make CMakeFiles/switching_times.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/SwitchingTimes.dir/build.make CMakeFiles/SwitchingTimes.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/switching_times.dir/build.make CMakeFiles/switching_times.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 src/switching-times-example.o: src/switching-times-example.cpp.o
@@ -156,7 +156,7 @@ src/switching-times-example.o: src/switching-times-example.cpp.o
 
 # target to build an object file
 src/switching-times-example.cpp.o:
-	$(MAKE) -f CMakeFiles/SwitchingTimes.dir/build.make CMakeFiles/SwitchingTimes.dir/src/switching-times-example.cpp.o
+	$(MAKE) -f CMakeFiles/switching_times.dir/build.make CMakeFiles/switching_times.dir/src/switching-times-example.cpp.o
 .PHONY : src/switching-times-example.cpp.o
 
 src/switching-times-example.i: src/switching-times-example.cpp.i
@@ -165,7 +165,7 @@ src/switching-times-example.i: src/switching-times-example.cpp.i
 
 # target to preprocess a source file
 src/switching-times-example.cpp.i:
-	$(MAKE) -f CMakeFiles/SwitchingTimes.dir/build.make CMakeFiles/SwitchingTimes.dir/src/switching-times-example.cpp.i
+	$(MAKE) -f CMakeFiles/switching_times.dir/build.make CMakeFiles/switching_times.dir/src/switching-times-example.cpp.i
 .PHONY : src/switching-times-example.cpp.i
 
 src/switching-times-example.s: src/switching-times-example.cpp.s
@@ -174,7 +174,7 @@ src/switching-times-example.s: src/switching-times-example.cpp.s
 
 # target to generate assembly for a file
 src/switching-times-example.cpp.s:
-	$(MAKE) -f CMakeFiles/SwitchingTimes.dir/build.make CMakeFiles/SwitchingTimes.dir/src/switching-times-example.cpp.s
+	$(MAKE) -f CMakeFiles/switching_times.dir/build.make CMakeFiles/switching_times.dir/src/switching-times-example.cpp.s
 .PHONY : src/switching-times-example.cpp.s
 
 src/switching-times.o: src/switching-times.cpp.o
@@ -183,7 +183,7 @@ src/switching-times.o: src/switching-times.cpp.o
 
 # target to build an object file
 src/switching-times.cpp.o:
-	$(MAKE) -f CMakeFiles/SwitchingTimes.dir/build.make CMakeFiles/SwitchingTimes.dir/src/switching-times.cpp.o
+	$(MAKE) -f CMakeFiles/switching_times.dir/build.make CMakeFiles/switching_times.dir/src/switching-times.cpp.o
 .PHONY : src/switching-times.cpp.o
 
 src/switching-times.i: src/switching-times.cpp.i
@@ -192,7 +192,7 @@ src/switching-times.i: src/switching-times.cpp.i
 
 # target to preprocess a source file
 src/switching-times.cpp.i:
-	$(MAKE) -f CMakeFiles/SwitchingTimes.dir/build.make CMakeFiles/SwitchingTimes.dir/src/switching-times.cpp.i
+	$(MAKE) -f CMakeFiles/switching_times.dir/build.make CMakeFiles/switching_times.dir/src/switching-times.cpp.i
 .PHONY : src/switching-times.cpp.i
 
 src/switching-times.s: src/switching-times.cpp.s
@@ -201,7 +201,7 @@ src/switching-times.s: src/switching-times.cpp.s
 
 # target to generate assembly for a file
 src/switching-times.cpp.s:
-	$(MAKE) -f CMakeFiles/SwitchingTimes.dir/build.make CMakeFiles/SwitchingTimes.dir/src/switching-times.cpp.s
+	$(MAKE) -f CMakeFiles/switching_times.dir/build.make CMakeFiles/switching_times.dir/src/switching-times.cpp.s
 .PHONY : src/switching-times.cpp.s
 
 # Help Target
@@ -212,7 +212,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... SwitchingTimes"
+	@echo "... switching_times"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

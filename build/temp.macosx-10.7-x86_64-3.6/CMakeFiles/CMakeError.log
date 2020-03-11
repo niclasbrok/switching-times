@@ -1,0 +1,13 @@
+Performing C++ SOURCE FILE Test HAS_FLTO failed with the following output:
+Change Dir: /Users/nlbr/CLionProjects/SwitchingTimes/build/temp.macosx-10.7-x86_64-3.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8f3f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c8f3f.dir/build.make CMakeFiles/cmTC_c8f3f.dir/build
+Building CXX object CMakeFiles/cmTC_c8f3f.dir/src.cxx.o
+/usr/local/bin/g++-9    -DVERSION_INFO=\"0.0.1\" -DHAS_FLTO -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_c8f3f.dir/src.cxx.o -c /Users/nlbr/CLionProjects/SwitchingTimes/build/temp.macosx-10.7-x86_64-3.6/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: '-fno-fat-lto-objects' are supported only with linker plugin
+make[1]: *** [CMakeFiles/cmTC_c8f3f.dir/src.cxx.o] Error 1
+make: *** [cmTC_c8f3f/fast] Error 2
+
+Source file was:
+int main() { return 0; }

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/nlbr/CLionProjects/SwitchingTimes/main.cpp" "/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/CMakeFiles/SwitchingTimes.dir/main.cpp.o"
-  "/Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times-example.cpp" "/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/CMakeFiles/SwitchingTimes.dir/src/switching-times-example.cpp.o"
-  "/Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times.cpp" "/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/CMakeFiles/SwitchingTimes.dir/src/switching-times.cpp.o"
+  "/Users/nlbr/CLionProjects/SwitchingTimes/main.cpp" "/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/CMakeFiles/SwitchingTimes.dir/main.o"
+  "/Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times-example.cpp" "/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/CMakeFiles/SwitchingTimes.dir/src/switching-times-example.o"
+  "/Users/nlbr/CLionProjects/SwitchingTimes/src/switching-times.cpp" "/Users/nlbr/CLionProjects/SwitchingTimes/cmake-build-debug/CMakeFiles/SwitchingTimes.dir/src/switching-times.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

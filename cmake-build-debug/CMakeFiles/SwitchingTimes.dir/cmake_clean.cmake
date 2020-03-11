@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SwitchingTimes.dir/main.cpp.o"
-  "CMakeFiles/SwitchingTimes.dir/src/switching-times.cpp.o"
-  "CMakeFiles/SwitchingTimes.dir/src/switching-times-example.cpp.o"
+  "CMakeFiles/SwitchingTimes.dir/main.o"
+  "CMakeFiles/SwitchingTimes.dir/src/switching-times.o"
+  "CMakeFiles/SwitchingTimes.dir/src/switching-times-example.o"
   "SwitchingTimes.pdb"
   "SwitchingTimes"
 )

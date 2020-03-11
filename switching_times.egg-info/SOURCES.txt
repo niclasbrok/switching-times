@@ -1,6 +1,0 @@
-setup.py
-switching_times.egg-info/PKG-INFO
-switching_times.egg-info/SOURCES.txt
-switching_times.egg-info/dependency_links.txt
-switching_times.egg-info/not-zip-safe
-switching_times.egg-info/top_level.txt

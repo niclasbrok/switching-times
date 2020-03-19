@@ -17,8 +17,8 @@
 ##### BELOW is pybind11 CMakeLists.txt - above is ordinary CMakeLists.txt
 
 cmake_minimum_required(VERSION 3.10)
-set(CMAKE_C_COMPILER /usr/local/bin/gcc-9)
-set(CMAKE_CXX_COMPILER /usr/local/bin/g++-9)
+set(CMAKE_C_COMPILER /usr/local/bin/gcc)
+set(CMAKE_CXX_COMPILER /usr/local/bin/g++)
 project(switching_times)
 set(CMAKE_CXX_STANDARD 17)
 set(IPOPT_LIBRARY_DIRS /usr/local/lib)

@@ -12,6 +12,7 @@
 #include <boost/numeric/odeint/external/eigen/eigen.hpp>
 #include <coin-or/IpIpoptApplication.hpp>
 #include <coin-or/IpTNLP.hpp>
+#include <coin-or/IpOptionsList.hpp>
 
 using namespace boost::numeric::odeint;
 using namespace Ipopt;
@@ -390,9 +391,14 @@ namespace SwitchingTimes {
             // Define IPOPT application
             SmartPtr<IpoptApplication> app = IpoptApplicationFactory();
             // Set options
-            app->Options()->SetNumericValue("tol", 1e-4);
-            app->Options()->SetStringValue("hessian_approximation", "limited-memory");
-            app->Options()->SetIntegerValue("print_level", 5);
+            std::string tag = "tol";
+            std::string val = "";
+            app->Options()->SetNumericValue(tag, 1e-4);
+            tag = "hessian_approximation";
+            val = "limited-memory";
+            app->Options()->SetStringValue(tag, val);
+            tag = "print_level";
+            app->Options()->SetIntegerValue(tag, 5);
             // Initialize IPOPT application
             (*plant)._status_init = (int) app->Initialize();
             // Solve NLP

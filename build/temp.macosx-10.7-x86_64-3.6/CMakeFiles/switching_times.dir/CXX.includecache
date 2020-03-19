@@ -203,6 +203,8 @@ coin-or/IpIpoptApplication.hpp
 -
 coin-or/IpTNLP.hpp
 -
+coin-or/IpOptionsList.hpp
+-
 
 /Users/nlbr/anaconda3/include/python3.6m/Python.h
 patchlevel.h
